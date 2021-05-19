@@ -1,0 +1,1 @@
+mvn deploy:deploy-file -Durl=file:repo/ -Dfile=${basedir}\lib\ru\fraction\calculator\fraction.jar -DgroupId=ru.fraction.calculator -DartifactId=fraction -Dpackaging=jar -Dversion=1.0 && mvn validate && mvn clean install && Pause
